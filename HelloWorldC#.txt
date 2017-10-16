@@ -1,0 +1,36 @@
+///All start with the "Hello, world!" example,
+///Visual C# Express creates a new project for you, including a file called Program.cs.
+
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        }
+    }
+}
+///we know all about C# and add a couple of lines to get some output. Within the last set of { }, add these lines: 
+
+Console.WriteLine("Hello, world!");
+Console.ReadLine();
+The code of your first application should now look like this:
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, world!");
+            Console.ReadLine();
+        }
+    }
+}
